@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+header{
+	background-color: rgba(216,191,216, 1.0);
+	color: #fff;
+	font-family: arial;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	text-shadow: 1px 1px 2px #000;
+}
+h3{
+	font-size: 3rem;
+	font-family: arial;
+	margin: 0;
+	padding: 5px;
+}
+h4{
+	font-family: 1.6rem;
+	font-family: arial;
+	margin: 0;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+body{
+	background-color: #FAFAD2;
+}
+.container{
+	display: block;
+	background-color: #E0FFFF;
+	width: 70%;
+	box-shadow: 2px 2px #000;
+	margin: 0 auto;
+	max-width: 90%px;
+	max-height: 90%px;
+	min-width: 0;
+	min-height: 0;
+	margin-top: 100px;	
+	margin-bottom: 40px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+}
+@media(min-width: 320px) and (max-width: 450px)
+.container{
+	display: block;
+	background-color: #E0FFFF;
+	width: 70%;
+	box-shadow: 2px 2px #000;
+	margin: 0 auto;
+	max-width: 90%px;
+	max-height: 90%px;
+	min-width: 0;
+	min-height: 0;
+	margin-top: 10rem;	
+	margin-bottom: 4rem;
+	border-radius: 5px;
+}
+footer{
+	font-family: arial;
+	color: #fff;
+	background-color: rgba(216,191,216, 1.0);
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-shadow: 1px 1px 2px #000;
+	height: 30%;
+}
+p{
+	font-family: arial;
+	text-align: justify;
+	padding: 10px;
+	font-size: 1.6rem;
+}
+h1{
+	font-family: arial;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 2rem;
+}
+h2{
+	font-family: arial;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.9rem;
+}
+.texto-footer{
+	text-align: center;
+	font-family: arial;
+	padding-top: 10px;
+	font-size: 1.6rem;
+	padding-bottom: 10px;
+}
+h5{
+	font-family: arial;
+	text-align: center;
+	padding: 1px;
+	font-size: 1.9rem;
+}
+div.video{
+	position: relative;
+	padding-bottom: 50%;
+	width: 100%;
+	height: 90%;
+	margin: 0 auto;
+}
+div.video{
+	position: relative;
+	padding-bottom: 50%;
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+}
+div.video > iframe{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+}
+p.compra-office{
+	text-align: center;
+	font-weight: bold;
+	background-color: rgba(50, 205, 50, 1.0);
+	width: 30%;
+	margin: 0 auto;
+	font-size: 1.7rem;
+	font-family: arial;
+	border-radius: 10px;
+	border: solid rgba(0, 0, 0, 1);
+	text-shadow: 2px 2px 5px #000;
+	color: #fff;
+}
